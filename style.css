@@ -1,0 +1,485 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1;
+    color: #eee;
+    background-color: #f9f9f9;
+
+}
+main {
+    color: #eee;
+}
+header {
+    text-align: center;
+}
+.Carl {
+    background-image: linear-gradient(to bottom,#333,#555);
+    background-position: 0% 80%;
+    height:80vh;
+    margin-bottom: 5px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.Carl h1 {
+    font-size: 48px;
+    margin-bottom: 5px;
+}
+.Carl p {
+    margin-bottom: 20px;
+    font-size: 20px;
+    
+}
+.Get-started {
+    padding: 12px 18px;
+    font-size: 20px;
+    font-style: oblique;
+    background-color: #007bff;
+    border-radius: 10px;
+    
+}
+.Get-started a {
+    text-decoration: none;
+    color: #ccc;
+}
+.Courses {
+    padding: 2em;
+}
+.Courses ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+.Courses h2, h3 {
+    margin: 0;
+}
+.Courses h3 {
+    margin-bottom: 5px;
+} 
+.Courses li {
+    margin-bottom: 20px;
+}
+nav {
+    background-color: purple;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+nav li {
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 45px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+nav a:hover {
+    color: red;
+}
+nav a:active {
+    color: #fff;
+    font-weight: 70%;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    clear:both;
+}
+* Global Styles */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+/* Courses Page Styles */
+
+.courses {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.courses ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.courses li {
+  margin-bottom: 20px;
+}
+
+.courses a {
+  text-decoration: none;
+  color: #337ab7;
+}
+
+.courses a:hover {
+  color: #23527c;
+}
+
+/* Course Materials Styles */
+
+.course-materials {
+  background-color: #f7f7f7;
+  padding: 20px;
+  border: 1px solid #ddd;
+  margin-top: 20px;
+}
+
+.course-materials ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.course-materials li {
+  margin-bottom: 10px;
+}
+
+.course-materials a {
+  text-decoration: none;
+  color: #337ab7;
+}
+
+.course-materials a:hover {
+  color: #23527c;
+}
+/* Information Technology*/
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  h1 {
+    color: #00698f;
+    text-align: center;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  li:last-child {
+    border-bottom: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #00698f;
+  }
+  
+  a:hover {
+    color: #003366;
+  }
+  /*Computer Science*/
+  body {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	background-color: #f0f0f0;
+}
+
+h1 {
+	color: #00698f;
+	text-align: center;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	padding: 10px;
+	border-bottom: 1px solid #ccc;
+}
+
+li:last-child {
+	border-bottom: none;
+}
+
+a {
+	text-decoration: none;
+	color: #00698f;
+}
+
+a:hover {
+	color: #003366;
+}
+/*Economics*/
+body {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	background-color: #f0f0f0;
+}
+
+h1 {
+	color: #00698f;
+	text-align: center;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	padding: 10px;
+	border-bottom: 1px solid #ccc;
+}
+
+li:last-child {
+	border-bottom: none;
+}
+
+a {
+	text-decoration: none;
+	color: #00698f;
+}
+
+a:hover {
+	color: #003366;
+}
+/*Search.html*/
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f0f0f0;
+}
+
+h1 {
+	color: #00698f;
+	text-align: center;
+}
+
+form {
+	margin-top: 20px;
+	text-align: center;
+}
+
+input[type="text"] {
+	padding: 10px;
+	width: 50%;
+	margin-bottom: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+button {
+	padding: 10px 20px;
+	background-color: #00698f;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #003366;
+}
+
+#search-results {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+#search-results li {
+	padding: 10px;
+	border-bottom: 1px solid #ccc;
+}
+
+#search-results li:last-child {
+	border-bottom: none;
+}
+/*About.html*/
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f0f0f0;
+}
+
+h1 {
+	color: #00698f;
+	text-align: center;
+}
+
+p {
+	margin-bottom: 20px;
+}
+
+h2 {
+	color: #00698f;
+	margin-top: 40px;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	padding: 10px;
+	border-bottom: 1px solid #ccc;
+}
+
+li:last-child {
+	border-bottom: none;
+}
+
+input[type="tel"],
+input[type="email"] {
+	padding: 10px;
+	width: 50%;
+	margin-bottom: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+/*Login.html*/
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f0f0f0;
+}
+
+h1 {
+	color: #00698f;
+	text-align: center;
+}
+
+form {
+	margin-top: 20px;
+	text-align: center;
+}
+
+label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="password"] {
+	padding: 10px;
+	width: 50%;
+	margin-bottom: 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+button {
+	padding: 10px 20px;
+	background-color: #00698f;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #003366;
+}
+
+p {
+	margin-top: 20px;
+}
+
+a {
+	color: #00698f;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #003366;
+}
+/*Logins.html*/
+#login-form {
+	width: 50%;
+	margin: 40px auto;
+	padding: 20px;
+	background-color: #f9f9f9;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#login-form label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+#login-form input[type="text"],
+#login-form input[type="password"] {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+#login-form input[type="submit"] {
+	width: 100%;
+	padding: 10px;
+	background-color: #00698f;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+#login-form input[type="submit"]:hover {
+	background-color: #003366;
+}
+
+/*HTLM and CSS*/
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.videos-left {
+  width: 49%;
+  margin: 0 20;
+  background-color: #ccc;
+}
+.vid-1 {
+  width: 60%;
+  padding-left: 20px;
+  margin-top: 0%;
+}
+.videos-right {
+  background-color: #ccc;
+  width: 50%;
+  margin:0 20 ;
+}

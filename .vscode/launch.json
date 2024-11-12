@@ -1,0 +1,16 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "msedge",
+            "request": "launch",
+            "name": "Open index.html",
+            "file": "d:\\OneDrive\\Desktop\\Home\\CarlSAM's Educare\\index.html"
+        }{ "version": "0.2.0", "configurations": [ { "name": "Launch Microsoft Edge and open the Edge DevTools", "type": "vscode-edge-devtools.debug", "request": "launch", "url": "http://localhost:8080", "webRoot": "${workspaceFolder}" }, { "name": "Attach to Microsoft Edge and open the Edge DevTools", "type": "vscode-edge-devtools.debug", "request": "attach", "url": "http://localhost:8080", "webRoot": "${workspaceFolder}" }, { "name": "Attach to Chrome", "type": "chrome", "request": "attach", "port": 9222, "webRoot": "${workspaceFolder}" }, { "name": "Launch Chrome", "type": "chrome", "request": "launch", "url": "http://localhost:8080", "webRoot": "${workspaceFolder}" }, { "name": "Open index.html", "type": "msedge", "request": "launch", "file": "d:\\Part-time\\ucc web_CarlSAM\\index.html" } ]
+
+    ]
+    
+}

@@ -1,0 +1,7 @@
+{
+    "livePreview.defaultPreviewPath": "/index.html",
+    "launch": {
+        "configurations": [],
+        "compounds": []
+    }
+}
